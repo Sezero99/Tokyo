@@ -49,367 +49,367 @@ public class homework2 {
 
 
 
-\\\&nbsp;	public static void main(String\\\\\\\[] args) {
+public static void main(String\\\\\\\[] args) {
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		//1
+//1
 
-\\\&nbsp;		String password = "qwer1234";
+String password = "qwer1234";
 
-\\\&nbsp;		
+	
 
-\\\&nbsp;		if (password.equals ("qwer1234")) {
+if (password.equals ("qwer1234")) {
 
-\\\&nbsp;			System.out.println("비밀번호가 맞아요!!");
+System.out.println("비밀번호가 맞아요!!");
 
-\\\&nbsp;		} else {
+} else {
 
-\\\&nbsp;			System.out.println("비밀번호가 틀렸어요");
+	System.out.println("비밀번호가 틀렸어요");
 
-\\\&nbsp;		}
+}
 
 
 
-\\\&nbsp;		System.out.println("==================================");
+		System.out.println("==================================");
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		//2
+		//2
 
-\\\&nbsp;		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-\\\&nbsp;		String password1 = sc.nextLine();
+		String password1 = sc.nextLine();
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		if (password1.equals("qwer1234")) {
+		if (password1.equals("qwer1234")) {
 
-\\\&nbsp;			
+			
 
-\\\&nbsp;			System.out.println("비밀번호가 맞아요!!");
+			System.out.println("비밀번호가 맞아요!!");
 
-\\\&nbsp;			
+			
 
-\\\&nbsp;		} else {
+		} else {
 
-\\\&nbsp;			
+			
 
-\\\&nbsp;			System.out.println("비밀번호가 틀렸어요");
+			System.out.println("비밀번호가 틀렸어요");
 
 
 
-\\\&nbsp;		}
+		}
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		System.out.println("==================================");
+		System.out.println("==================================");
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		//3
+		//3
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		String animal = "강아지";
+		String animal = "강아지";
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		if (animal.equals("강아지")) {
+		if (animal.equals("강아지")) {
 
-\\\&nbsp;			
 
-\\\&nbsp;			System.out.println("멍멍");
 
-\\\&nbsp;			
+			System.out.println("멍멍");
 
-\\\&nbsp;		} else if (animal.equals("고양이")) {
+			
 
-\\\&nbsp;			
+		} else if (animal.equals("고양이")) {
 
-\\\&nbsp;			System.out.println("야옹");
+			
 
+			System.out.println("야옹");
 
 
-\\\&nbsp;		} else {
 
-\\\&nbsp;			
+		} else {
 
-\\\&nbsp;			System.out.println("무슨 동물이야?");
+			
 
-\\\&nbsp;			
+			System.out.println("무슨 동물이야?");
 
-\\\&nbsp;		}
+	
 
-\\\&nbsp;		
+		}
 
-\\\&nbsp;		System.out.println("==================================");
+		
 
-\\\&nbsp;		
+		System.out.println("==================================");
 
-\\\&nbsp;		//4
+		
 
-\\\&nbsp;		Scanner sc1 = new Scanner(System.in);
+		//4
 
-\\\&nbsp;		String animal1 = sc1.nextLine();
+		Scanner sc1 = new Scanner(System.in);
 
-\\\&nbsp;		
+		String animal1 = sc1.nextLine();
 
-\\\&nbsp;		if (animal1.equals("강아지")) {
+		
 
-\\\&nbsp;			System.out.println("멍멍");
+		if (animal1.equals("강아지")) {
 
-\\\&nbsp;			
+			System.out.println("멍멍");
 
-\\\&nbsp;		} else if (animal1.equals("고양이")) {
+			
 
-\\\&nbsp;			
+		} else if (animal1.equals("고양이")) {
 
-\\\&nbsp;			System.out.println("야옹");
+			
 
-\\\&nbsp;			
+			System.out.println("야옹");
 
-\\\&nbsp;		} else {
+			
 
-\\\&nbsp;			
+		} else {
 
-\\\&nbsp;			System.out.println("무슨 동물이야?");
+			
 
-\\\&nbsp;			
+			System.out.println("무슨 동물이야?");
 
-\\\&nbsp;		}
+			
 
-\\\&nbsp;		
+		}
 
-\\\&nbsp;		System.out.println("==================================");
+		
 
-\\\&nbsp;		
+		System.out.println("==================================");
 
-\\\&nbsp;		//5
+		
 
-\\\&nbsp;		int day = 6;
+		//5
 
-\\\&nbsp;		char result = 0;
+		int day = 6;
 
-\\\&nbsp;		
+		char result = 0;
 
-\\\&nbsp;		switch (day) {
+		
 
-\\\&nbsp;		case 0: 
+		switch (day) {
 
-\\\&nbsp;			result = '일';
+		case 0: 
 
-\\\&nbsp;			break;
+			result = '일';
 
-\\\&nbsp;		case 1:
+			break;
 
-\\\&nbsp;			result = '월';
+		case 1:
 
-\\\&nbsp;			break;
+			result = '월';
 
-\\\&nbsp;		case 2:
+			break;
 
-\\\&nbsp;			result = '화';
+		case 2:
 
-\\\&nbsp;			break;
+			result = '화';
 
-\\\&nbsp;		case 3:
+			break;
 
-\\\&nbsp;			result = '수';
+		case 3:
 
-\\\&nbsp;			break;
+			result = '수';
 
-\\\&nbsp;		case 4:
+			break;
 
-\\\&nbsp;			result = '목';
+		case 4:
 
-\\\&nbsp;			break;
+			result = '목';
 
-\\\&nbsp;		case 5:
+			break;
 
-\\\&nbsp;			result = '금';
+		case 5:
 
-\\\&nbsp;			break;
+			result = '금';
 
-\\\&nbsp;		case 6:
+			break;
 
-\\\&nbsp;			result = '토';
+		case 6:
 
-\\\&nbsp;			break;
+			result = '토';
 
-\\\&nbsp;		default:
+			break;
 
-\\\&nbsp;			System.out.println("정해진 숫자만 입력하세요.");
+		default:
 
-\\\&nbsp;			return; //main 메서드 종료
+			System.out.println("정해진 숫자만 입력하세요.");
 
-\\\&nbsp;	  }
+			return; //main 메서드 종료
 
-\\\&nbsp;		
+	  }
 
-\\\&nbsp;	  if (day == 0) {
+		
 
-\\\&nbsp;		  
+	  if (day == 0) {
 
-\\\&nbsp;		  System.out.println("주말이야");
+  
 
-\\\&nbsp;		  
+		  System.out.println("주말이야");
 
-\\\&nbsp;	  } else if (day == 6) {
+		  
 
-\\\&nbsp;		  
+	  } else if (day == 6) {
 
-\\\&nbsp;		  System.out.println("주말이야");
+		  
 
-\\\&nbsp;		  
+		  System.out.println("주말이야");
 
-\\\&nbsp;	  } else {
+		  
 
-\\\&nbsp;		  
+	  } else {
 
-\\\&nbsp;		 System.out.println("평일이야");
+		  
 
-\\\&nbsp;	  }
+		 System.out.println("평일이야");
 
-\\\&nbsp;		
+	  }
 
-\\\&nbsp;	  System.out.println("==================================");
+		
 
-\\\&nbsp;	  
+	  System.out.println("==================================");
 
-\\\&nbsp;	  //6
+	  
 
-\\\&nbsp;	  Scanner sc2 = new Scanner(System.in);
+	  //6
 
-\\\&nbsp;	  int day1 = sc2.nextInt();
+	  Scanner sc2 = new Scanner(System.in);
 
-\\\&nbsp;	  
+	  int day1 = sc2.nextInt();
 
-\\\&nbsp;	  if(day1 == 1 || day1 == 6) {
+  
 
-\\\&nbsp;		  
+   if(day1 == 1 || day1 == 6) {
 
-\\\&nbsp;		  System.out.println("주말이야");
+		  
 
-\\\&nbsp;		  
+		  System.out.println("주말이야");
 
-\\\&nbsp;	  } else if (day1 >=2 \\\\\\\&\\\\\\\& day1 <=5) {
+		  
 
-\\\&nbsp;		  
+	  } else if (day1 >=2 \\\\\\\&\\\\\\\& day1 <=5) {
 
-\\\&nbsp;		  System.out.println("평일이야");
+		  
 
-\\\&nbsp;	  }
+		  System.out.println("평일이야");
 
-\\\&nbsp;		
+	  }
 
-\\\&nbsp;		System.out.println("==================================");
+	
 
-\\\&nbsp;		
+		System.out.println("==================================");
 
-\\\&nbsp;		//7
+		
 
-\\\&nbsp;		Scanner sc4 = new Scanner(System.in);
+		//7
 
-\\\&nbsp;		int age = sc4.nextInt();
+		Scanner sc4 = new Scanner(System.in);
 
-\\\&nbsp;		
+		int age = sc4.nextInt();
 
-\\\&nbsp;		if (age >= 19) {
+		
 
-\\\&nbsp;			
+		if (age >= 19) {
 
-\\\&nbsp;			System.out.println("성인입니다");
+			
 
-\\\&nbsp;			
+			System.out.println("성인입니다");
 
-\\\&nbsp;		} else {
+			
 
-\\\&nbsp;			
+		} else {
 
-\\\&nbsp;			System.out.println("미성년자입니다");
+			
 
-\\\&nbsp;			
+			System.out.println("미성년자입니다");
 
-\\\&nbsp;		}
+			
 
-\\\&nbsp;		
+		}
 
-\\\&nbsp;		System.out.println("==================================");
+		
 
-\\\&nbsp;		
+		System.out.println("==================================");
 
-\\\&nbsp;		//8
+		
 
-\\\&nbsp;		
+		//8
 
-\\\&nbsp;		System.out.println("오늘 마신 커피 수를 입력하세요");
+		
 
-\\\&nbsp;		
+		System.out.println("오늘 마신 커피 수를 입력하세요");
 
-\\\&nbsp;		Scanner sc5 = new Scanner(System.in);
+		
 
-\\\&nbsp;		int coffee = sc5.nextInt();
+		Scanner sc5 = new Scanner(System.in);
 
-\\\&nbsp;		
+		int coffee = sc5.nextInt();
 
-\\\&nbsp;		if (coffee == 0) {
+		
 
-\\\&nbsp;			
+		if (coffee == 0) {
 
-\\\&nbsp;			System.out.println("여긴 어디?");
+			
 
-\\\&nbsp;			
+			System.out.println("여긴 어디?");
 
-\\\&nbsp;		} else if (coffee >= 1 \\\\\\\&\\\\\\\& coffee <= 2) {
+			
 
-\\\&nbsp;			
+		} else if (coffee >= 1 \\\\\\\&\\\\\\\& coffee <= 2) {
 
-\\\&nbsp;			System.out.println("완전 맑은 정신~");
+			
 
-\\\&nbsp;			
+			System.out.println("완전 맑은 정신~");
 
-\\\&nbsp;		} else if (coffee >= 3) {
+			
 
-\\\&nbsp;			
+		} else if (coffee >= 3) {
 
-\\\&nbsp;			System.out.println("기분 좋은 상태~");
+			
 
-\\\&nbsp;		}
+			System.out.println("기분 좋은 상태~");
 
-\\\&nbsp;		
+		}
 
-\\\&nbsp;		System.out.println("==================================");
+		
 
-\\\&nbsp;		
+		System.out.println("==================================");
 
-\\\&nbsp;		//9
+		
 
-\\\&nbsp;		Scanner sc6 = new Scanner(System.in);
+		//9
 
-\\\&nbsp;		int num = sc6.nextInt();
+		Scanner sc6 = new Scanner(System.in);
 
-\\\&nbsp;		int num1 = num%2;
+		int num = sc6.nextInt();
 
-\\\&nbsp;		
+		int num1 = num%2;
 
-\\\&nbsp;		if (num1 == 0) {
+		
 
-\\\&nbsp;			
+		if (num1 == 0) {
 
-\\\&nbsp;			System.out.println("짝수입니다");
+			
 
-\\\&nbsp;			
+			System.out.println("짝수입니다");
 
-\\\&nbsp;		} else {
+			
 
-\\\&nbsp;			
+		} else {
 
-\\\&nbsp;			System.out.println("홀수입니다");
+			
 
-\\\&nbsp;		}
+			System.out.println("홀수입니다");
 
-\\\&nbsp;   }
+		}
+
+   }
 
 }	
 
