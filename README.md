@@ -417,7 +417,7 @@ System.out.println("비밀번호가 맞아요!!");
 
 
 
-## -------------------------------------------------------------------------------------------------------------------------------------------
+## -------------------------------------------------------------------------------------------------
 
 
 
@@ -519,6 +519,221 @@ for (int = 0; i < scores.length; i++) {
 }
 
 Syso ("총합 : " + sum);
+
+---------------------------------------------------------------------------------------------
+
+package ch1;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Homework3 {
+
+	public static void main(String[] args) {
+		
+		//1
+		System.out.print("주문할 치킨 수를 입력해주세요 : ");
+		Scanner sc1 = new Scanner(System.in);
+		int ch = sc1.nextInt();
+		for (int i = 1; i <= ch; i++) {
+			
+			System.out.println("치킨 " + i + "마리 주문이요~");
+			
+		}
+		
+		System.out.println("==========");
+		
+		//2
+		System.out.print("스쿼트 몇 번 할까요? : ");
+		Scanner sc2 = new Scanner(System.in);
+		int sq = sc2.nextInt();
+		
+		for (int i = 1; i <= sq; i++) {
+			
+			System.out.println("스쿼트 " + i + "회 완료");
+			
+		}
+		
+		System.out.println("오늘 운동 끝~");
+		
+		System.out.println("==========");
+		
+		//3
+		System.out.print("수를 입력하여주세요 : ");
+		Scanner sc3 = new Scanner(System.in);
+		int num = sc3.nextInt();
+		
+		for (int i = 0; i <= num; i++) {
+			
+			if (i%2 == 0) {
+				
+				System.out.println(i);
+				
+			}
+		}
+		
+		System.out.println("==========");
+		
+		//4
+		Scanner sc4 = new Scanner(System.in);
+		
+		System.out.print("첫번째 숫자 입력 : ");
+		int num4 = sc4.nextInt();
+		
+		System.out.print("두번째 숫자 입력 : ");
+		int num5 = sc4.nextInt();
+		
+		if (num4 <= num5) {
+			
+			for (int i = num4+1; i < num5; i++) {
+			
+			System.out.println(i);
+			
+		}
+			
+			
+		} else {
+			
+			for (int i = num5+1; i < num4; i++) {
+				
+				System.out.println(i);
+				
+			}
+
+		}
+		
+		
+		System.out.println("==========");
+		
+		//5
+		for (int i = 1; i <= 9; i++) {
+			System.out.println(3*i);
+			
+		}
+		
+		System.out.println("==========");
+		
+		//6
+		System.out.print("숫자 하나를 입력해주세요 : ");
+		Scanner sc6 = new Scanner(System.in);
+		
+		int num6 = sc6.nextInt();
+		
+		for (int i = 1; i <= 9; i++) {
+			
+			System.out.println(num6 + "*" + i + "=" + num6*i);
+			
+		}
+		
+		System.out.println("==========");
+		
+		//7
+		System.out.print("숫자 하나를 입력해주세요 : ");
+		Scanner sc7 = new Scanner(System.in);
+		int num7 = sc7.nextInt();
+		
+		if (num7 % 3 == 0) {
+			
+			System.out.println("점프!");
+			
+		} else {
+			
+			System.out.println("패스~");
+
+		}
+		
+		System.out.println("==========");
+		
+		//8
+		System.out.print("숫자 하나를 입력해주세요 : ");
+		Scanner sc8 = new Scanner(System.in);
+		int num8 = sc8.nextInt();
+		
+		for (int i = 0; i < num8; i++) {           // 행 반복 ex) i = 0일 때 j = 0,1,2 / i = 1일 때 j = 0,1,2 / i = 2일 때 j = 0,1,2
+            for (int j = 0; j < num8; j++) {       // 열 반복
+            	
+                System.out.print("*");
+            }
+            
+            System.out.println();               // 한 행 끝나면 줄바꿈
+        }
+		
+		 System.out.println("==========");
+		
+		//9
+		 Scanner sc9 = new Scanner(System.in);
+		
+		 System.out.print("피자 조각 수 입력 : ");
+	     int slices = sc9.nextInt();
+
+	     System.out.print("사람 수 입력 : ");
+	     int people = sc9.nextInt();
+
+		
+		int p = slices/people;
+		int z = slices%people;
+		
+		System.out.println("한 사람이 먹을 수 있는 피자 조각 : " + p);
+		System.out.println("남은 피자 조각 : " + z);
+		
+		System.out.println("==========");
+		
+		//10
+		Scanner sc10 = new Scanner(System.in);
+		
+		System.out.print("첫번째 주사위 수 : ");
+		int di = sc10.nextInt();
+		
+		System.out.print("두번째 주사위 수 : ");
+		int ce = sc10.nextInt();
+		
+		System.out.println("두 수의 합은 : " + (di + ce));
+		
+		System.out.println("==========");
+		
+		//11
+	    Random ran = new Random(); //랜덤 변수
+				
+	    int result = ran.nextInt(50) + 1; // 0~49에서 +1해서 1~50까지의 수로 맞추기
+	    
+	    Scanner sc11 = new Scanner(System.in);
+	    
+	    int guess = 0; // 뒤에 while문에서 target 값과 비교해야하니 임의로 guess값을 0으로 선언
+	    
+	    System.out.print("1~50 사이의 숫자를 맞춰보세요");
+	    
+	    while (guess != result) { // 'for문'은 보통 횟수가 정해진 반복문 , 'while문'은 언제 끝날지 모르는 반복
+	    	                      // 'while'문은 무한반복인데 guess == result 값이 되면 빠져나옴
+	    	
+	    	System.out.print("숫자 입력 : ");
+	    	guess = sc11.nextInt(); //이미 선언했으니 'int' 할 필요가 없음
+			
+	    	if (guess < result) {
+	    		
+	    		System.out.println("UP!");
+				
+			} else if (guess > result) {
+				
+				System.out.println("DOWN!");
+
+			} else {
+				
+				System.out.println("정답입니다!");
+			}
+		}
+	    
+	    sc1.close();
+	    sc2.close();
+	    sc3.close();
+	    sc4.close();
+	    sc6.close();
+	    sc7.close();
+	    sc8.close();
+	    sc9.close();
+	    sc10.close();
+	    sc11.close();
+	}
+}
 
 
 
