@@ -808,6 +808,142 @@ public class Deposit {
 	}
 }
 
+---------------------------------------------------------------------------------------------------------------
+
+package ch1;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Homework4 {
+	
+	//1
+	public static int totalCh(int a) {
+		
+		return a*8;
+		
+	}
+	
+	//2
+	public static int totalCaffeine(int b) {
+		
+		return b*80;
+		
+	}
+	
+	//3
+	public static int samKim(int c) {
+		
+		return c*200;
+		
+	}
+	
+	//4
+	public static int getLove(String name1, String name2) {
+		
+		Random ran = new Random();
+	    int d = ran.nextInt(101); // 0 ~ 100 전까지의 값 중 랜덤 수
+	    System.out.println(name1 + "과 " + name2 + "의 연애 성공 확률은 " + d + "% 입니다!");
+		return d;
+	}
+	
+	//5
+	public static String randomFood() {
+		
+		String[] food = {"라면", "김밥", "파스타", "샐러드"};
+		Random ran = new Random();
+		int index = ran.nextInt(food.length); // 0 ~ foods.length-1
+        return food[index];
+	}
+	
+	//6
+	public static String getGrade(int e) {
+		
+		if (e >= 90 && e <= 100) {
+			
+			return "A";
+			
+		} else if (e >= 80) {
+			
+			return "B";
+
+		} else if (e >= 70) {
+			
+			return "C";
+			
+		} else if (e >= 60) {
+			
+			return "D";
+			
+		} else if (e >= 0) {
+			
+			return "F";
+			
+		} else {
+			
+			return "잘못된 점수";
+		}
+		
+	}
+	
+	//7
+	public static int totalMoney(int money, int hours) {
+		
+		return money*hours;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		//1
+		System.out.print("주문할 치킨 마릿수를 입력해주세요 : ");
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		System.out.println("총 조각 수는 " + totalCh(a) + "개 입니다");
+		
+		System.out.println("====================================");
+		
+		//2 
+		System.out.print("오늘 하루 마신 커피의 수를 입력해주세요 : ");
+		int b = sc.nextInt();
+		System.out.println("총 카페인 함량은 " + totalCaffeine(b) + "mg 입니다");
+		
+		System.out.println("====================================");
+		
+		//3
+		System.out.print("오늘 하루 먹은 삼각김밥의 수를 입력해주세요 : ");
+		int c = sc.nextInt();
+		System.out.println("삼각김밥의 총 칼로리는 " + samKim(c) + "kcal 입니다");
+		
+		System.out.println("====================================");
+		
+		//4
+	    getLove("은정", "봉현");
+	    
+	    System.out.println("====================================");
+	    
+	    //5
+	    System.out.println("오늘의 추천 음식은 " + randomFood());
+	    
+	    
+	    System.out.println("====================================");
+	    
+	    //6
+	    System.out.print("0~100까지의 숫자 중 하나를 입력하세요 : ");
+	    int e = sc.nextInt();
+	    System.out.println(getGrade(e));
+	    
+	    System.out.println("====================================");
+	    
+	    //7
+	    System.out.print("시급 : ");
+	    int money = sc.nextInt();
+	    System.out.print("일한 시간 : ");
+	    int hours = sc.nextInt();
+	    System.out.println("총 급여 : " + totalMoney(money,hours));
+	}
+
+}
 
 
 
