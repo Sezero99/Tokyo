@@ -735,6 +735,78 @@ public class Homework3 {
 	}
 }
 
+----------------------------------------------------------------------------------------------------------------------------------
+<20250915 과제>
+
+package ch2;
+
+import java.util.Scanner;
+
+public class Deposit {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		boolean run = true;
+		int num = 0;
+		int money = 0; // 입출금액
+		int balance = 0; // 잔고
+		
+		while (run) { // 원하는 바를 이룰 때까지 프로그램 진행
+			
+			System.out.println("==================================");
+			System.out.println("1: 예금 | 2: 출금 | 3: 잔고 | 4: 종료 ");
+			System.out.println("==================================");
+			System.out.print("번호를 입력하세요 : ");
+			num = sc.nextInt();
+			
+			switch (num) {
+			case 1: {
+				System.out.print("입금액을 입력해주세요 : ");
+				money = sc.nextInt();
+				balance += money;
+				System.out.println(money + " 입금되었습니다");
+				break;
+			}
+			
+			case 2: {
+				System.out.print("출금액을 입력해주세요 : ");
+				money = sc.nextInt();
+				if (balance < money) {
+					System.out.println("출금할 수 없습니다");
+				} else {
+					
+					balance -= money;
+					System.out.println(money + " 출금되었습니다");
+				}
+				
+				
+				break;
+			}
+			
+			case 3: {
+				
+				System.out.println("잔고 : " + balance);
+				break;
+				
+			}
+			
+			case 4: {
+				
+				run = false;
+				break;
+			}
+
+			default:
+				System.out.println("잘못된 입력입니다");
+				break;
+			}
+		}
+		
+		System.out.println("프로그램 종료");
+	}
+}
 
 
 
