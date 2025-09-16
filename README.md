@@ -945,8 +945,167 @@ public class Homework4 {
 
 }
 
+---------------------------------------------------------------------------------------------------------------
+//1
+public class Idolhw {
+	
+	String name;
+	String position;
+	String groupname;
+	
+	
+	public Idolhw(String name, String position, String groupname) {
+		super();
+		this.name = name;
+		this.position = position;
+		this.groupname = groupname;
+	}
 
 
+	@Override
+	public String toString() {
+		return "Idolhw [이름 = " + name + ", 포지션 = " + position + ", 그룹 이름 = " + groupname + "]";
+	}
+	
+}
+
+public class IdolhwMain {
+
+	public static void main(String[] args) {
+		Idolhw idol1 = new Idolhw("루미", "리더", "헌트릭스");
+		Idolhw idol2 = new Idolhw("미라", "보컬", "헌트릭스");
+		Idolhw idol3 = new Idolhw("조이", "래퍼", "헌트릭스");
+		
+		System.out.println(idol1);
+		System.out.println(idol2);
+		System.out.println(idol3);
+
+	}
+
+}
+
+//2
+public class Pizza {
+	
+	String name;
+	String size;
+	
+	public Pizza(String name, String size) {
+		//super();
+		this.name = name;
+		this.size = size;
+	}
+
+	@Override
+	public String toString() {
+		return "Pizza [종류 = " + name + ", 사이즈 = " + size + "]";
+	}
+	
+}
+
+public class DeliveryOrderMainEx {
+
+	public static void main(String[] args) {
+		
+		DeliveryOrder first = new DeliveryOrder("떡볶이", "기숙사");
+		
+	    first.deliver(first.food, first.address);
+	}
+
+}
+
+//3
+public class Song {
+	
+	String title;
+	String artist;
+	
+	public Song(String title, String artist) {
+		//super();
+		this.title = title;
+		this.artist = artist;
+	}
+
+	public String play() {
+		return "노래를 출력합니다!";
+	}
+	
+}
+
+public class SongMainEx {
+
+	public static void main(String[] args) {
+		
+		Song song1 = new Song("Good Bye", "Ai Tomioka");
+		
+		System.out.println("노래명 : " + song1.title + " / 아티스트 : " + song1.artist);
+
+	}
+
+}
+
+//4
+public class InstagramPost {
+	
+	String written;
+	String contents;
+	
+	
+	public InstagramPost(String written, String contents) {
+		//super();
+		this.written = written;
+		this.contents = contents;
+	}
+	
+	@Override
+	public String toString() {
+		return "InstagramPost [작성자 = " + written + ", 내용 = " + contents + "]";
+	}
+	
+}
+
+public class InstagramPostMainEx {
+
+	public static void main(String[] args) {
+		
+		InstagramPost dm1 = new InstagramPost("민지", "오늘 날씨 짱~!");
+		
+		System.out.println(dm1);
+		
+	}
+
+}
+
+//5
+public class DeliveryOrder {
+	
+	String food;
+	String address;
+	
+	public DeliveryOrder(String food, String address) {
+		//super();
+		this.food = food;
+		this.address = address;
+	}
+	
+	public void deliver(String food, String address) {
+		
+		System.out.println(food + "를 " + address + "에 배송완료했습니다");
+		
+	}
+	
+}
+
+public class DeliveryOrderMainEx {
+
+	public static void main(String[] args) {
+		
+		DeliveryOrder first = new DeliveryOrder("떡볶이", "기숙사");
+		
+	    first.deliver(first.food, first.address);
+	}
+
+}
 
 
 
