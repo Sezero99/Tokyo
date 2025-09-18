@@ -49,367 +49,367 @@ public class homework2 {
 
 
 
-\\\&nbsp;	public static void main(String\\\\\\\[] args) {
+public static void main(String\\\\\\\[] args) {
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		//1
+//1
 
-\\\&nbsp;		String password = "qwer1234";
+String password = "qwer1234";
 
-\\\&nbsp;		
+	
 
-\\\&nbsp;		if (password.equals ("qwer1234")) {
+if (password.equals ("qwer1234")) {
 
-\\\&nbsp;			System.out.println("비밀번호가 맞아요!!");
+System.out.println("비밀번호가 맞아요!!");
 
-\\\&nbsp;		} else {
+} else {
 
-\\\&nbsp;			System.out.println("비밀번호가 틀렸어요");
+	System.out.println("비밀번호가 틀렸어요");
 
-\\\&nbsp;		}
+}
 
 
 
-\\\&nbsp;		System.out.println("==================================");
+		System.out.println("==================================");
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		//2
+		//2
 
-\\\&nbsp;		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-\\\&nbsp;		String password1 = sc.nextLine();
+		String password1 = sc.nextLine();
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		if (password1.equals("qwer1234")) {
+		if (password1.equals("qwer1234")) {
 
-\\\&nbsp;			
+			
 
-\\\&nbsp;			System.out.println("비밀번호가 맞아요!!");
+			System.out.println("비밀번호가 맞아요!!");
 
-\\\&nbsp;			
+			
 
-\\\&nbsp;		} else {
+		} else {
 
-\\\&nbsp;			
+			
 
-\\\&nbsp;			System.out.println("비밀번호가 틀렸어요");
+			System.out.println("비밀번호가 틀렸어요");
 
 
 
-\\\&nbsp;		}
+		}
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		System.out.println("==================================");
+		System.out.println("==================================");
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		//3
+		//3
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		String animal = "강아지";
+		String animal = "강아지";
 
-\\\&nbsp;		
+		
 
-\\\&nbsp;		if (animal.equals("강아지")) {
+		if (animal.equals("강아지")) {
 
-\\\&nbsp;			
 
-\\\&nbsp;			System.out.println("멍멍");
 
-\\\&nbsp;			
+			System.out.println("멍멍");
 
-\\\&nbsp;		} else if (animal.equals("고양이")) {
+			
 
-\\\&nbsp;			
+		} else if (animal.equals("고양이")) {
 
-\\\&nbsp;			System.out.println("야옹");
+			
 
+			System.out.println("야옹");
 
 
-\\\&nbsp;		} else {
 
-\\\&nbsp;			
+		} else {
 
-\\\&nbsp;			System.out.println("무슨 동물이야?");
+			
 
-\\\&nbsp;			
+			System.out.println("무슨 동물이야?");
 
-\\\&nbsp;		}
+	
 
-\\\&nbsp;		
+		}
 
-\\\&nbsp;		System.out.println("==================================");
+		
 
-\\\&nbsp;		
+		System.out.println("==================================");
 
-\\\&nbsp;		//4
+		
 
-\\\&nbsp;		Scanner sc1 = new Scanner(System.in);
+		//4
 
-\\\&nbsp;		String animal1 = sc1.nextLine();
+		Scanner sc1 = new Scanner(System.in);
 
-\\\&nbsp;		
+		String animal1 = sc1.nextLine();
 
-\\\&nbsp;		if (animal1.equals("강아지")) {
+		
 
-\\\&nbsp;			System.out.println("멍멍");
+		if (animal1.equals("강아지")) {
 
-\\\&nbsp;			
+			System.out.println("멍멍");
 
-\\\&nbsp;		} else if (animal1.equals("고양이")) {
+			
 
-\\\&nbsp;			
+		} else if (animal1.equals("고양이")) {
 
-\\\&nbsp;			System.out.println("야옹");
+			
 
-\\\&nbsp;			
+			System.out.println("야옹");
 
-\\\&nbsp;		} else {
+			
 
-\\\&nbsp;			
+		} else {
 
-\\\&nbsp;			System.out.println("무슨 동물이야?");
+			
 
-\\\&nbsp;			
+			System.out.println("무슨 동물이야?");
 
-\\\&nbsp;		}
+			
 
-\\\&nbsp;		
+		}
 
-\\\&nbsp;		System.out.println("==================================");
+		
 
-\\\&nbsp;		
+		System.out.println("==================================");
 
-\\\&nbsp;		//5
+		
 
-\\\&nbsp;		int day = 6;
+		//5
 
-\\\&nbsp;		char result = 0;
+		int day = 6;
 
-\\\&nbsp;		
+		char result = 0;
 
-\\\&nbsp;		switch (day) {
+		
 
-\\\&nbsp;		case 0: 
+		switch (day) {
 
-\\\&nbsp;			result = '일';
+		case 0: 
 
-\\\&nbsp;			break;
+			result = '일';
 
-\\\&nbsp;		case 1:
+			break;
 
-\\\&nbsp;			result = '월';
+		case 1:
 
-\\\&nbsp;			break;
+			result = '월';
 
-\\\&nbsp;		case 2:
+			break;
 
-\\\&nbsp;			result = '화';
+		case 2:
 
-\\\&nbsp;			break;
+			result = '화';
 
-\\\&nbsp;		case 3:
+			break;
 
-\\\&nbsp;			result = '수';
+		case 3:
 
-\\\&nbsp;			break;
+			result = '수';
 
-\\\&nbsp;		case 4:
+			break;
 
-\\\&nbsp;			result = '목';
+		case 4:
 
-\\\&nbsp;			break;
+			result = '목';
 
-\\\&nbsp;		case 5:
+			break;
 
-\\\&nbsp;			result = '금';
+		case 5:
 
-\\\&nbsp;			break;
+			result = '금';
 
-\\\&nbsp;		case 6:
+			break;
 
-\\\&nbsp;			result = '토';
+		case 6:
 
-\\\&nbsp;			break;
+			result = '토';
 
-\\\&nbsp;		default:
+			break;
 
-\\\&nbsp;			System.out.println("정해진 숫자만 입력하세요.");
+		default:
 
-\\\&nbsp;			return; //main 메서드 종료
+			System.out.println("정해진 숫자만 입력하세요.");
 
-\\\&nbsp;	  }
+			return; //main 메서드 종료
 
-\\\&nbsp;		
+	  }
 
-\\\&nbsp;	  if (day == 0) {
+		
 
-\\\&nbsp;		  
+	  if (day == 0) {
 
-\\\&nbsp;		  System.out.println("주말이야");
+  
 
-\\\&nbsp;		  
+		  System.out.println("주말이야");
 
-\\\&nbsp;	  } else if (day == 6) {
+		  
 
-\\\&nbsp;		  
+	  } else if (day == 6) {
 
-\\\&nbsp;		  System.out.println("주말이야");
+		  
 
-\\\&nbsp;		  
+		  System.out.println("주말이야");
 
-\\\&nbsp;	  } else {
+		  
 
-\\\&nbsp;		  
+	  } else {
 
-\\\&nbsp;		 System.out.println("평일이야");
+		  
 
-\\\&nbsp;	  }
+		 System.out.println("평일이야");
 
-\\\&nbsp;		
+	  }
 
-\\\&nbsp;	  System.out.println("==================================");
+		
 
-\\\&nbsp;	  
+	  System.out.println("==================================");
 
-\\\&nbsp;	  //6
+	  
 
-\\\&nbsp;	  Scanner sc2 = new Scanner(System.in);
+	  //6
 
-\\\&nbsp;	  int day1 = sc2.nextInt();
+	  Scanner sc2 = new Scanner(System.in);
 
-\\\&nbsp;	  
+	  int day1 = sc2.nextInt();
 
-\\\&nbsp;	  if(day1 == 1 || day1 == 6) {
+  
 
-\\\&nbsp;		  
+   if(day1 == 1 || day1 == 6) {
 
-\\\&nbsp;		  System.out.println("주말이야");
+		  
 
-\\\&nbsp;		  
+		  System.out.println("주말이야");
 
-\\\&nbsp;	  } else if (day1 >=2 \\\\\\\&\\\\\\\& day1 <=5) {
+		  
 
-\\\&nbsp;		  
+	  } else if (day1 >=2 \\\\\\\&\\\\\\\& day1 <=5) {
 
-\\\&nbsp;		  System.out.println("평일이야");
+		  
 
-\\\&nbsp;	  }
+		  System.out.println("평일이야");
 
-\\\&nbsp;		
+	  }
 
-\\\&nbsp;		System.out.println("==================================");
+	
 
-\\\&nbsp;		
+		System.out.println("==================================");
 
-\\\&nbsp;		//7
+		
 
-\\\&nbsp;		Scanner sc4 = new Scanner(System.in);
+		//7
 
-\\\&nbsp;		int age = sc4.nextInt();
+		Scanner sc4 = new Scanner(System.in);
 
-\\\&nbsp;		
+		int age = sc4.nextInt();
 
-\\\&nbsp;		if (age >= 19) {
+		
 
-\\\&nbsp;			
+		if (age >= 19) {
 
-\\\&nbsp;			System.out.println("성인입니다");
+			
 
-\\\&nbsp;			
+			System.out.println("성인입니다");
 
-\\\&nbsp;		} else {
+			
 
-\\\&nbsp;			
+		} else {
 
-\\\&nbsp;			System.out.println("미성년자입니다");
+			
 
-\\\&nbsp;			
+			System.out.println("미성년자입니다");
 
-\\\&nbsp;		}
+			
 
-\\\&nbsp;		
+		}
 
-\\\&nbsp;		System.out.println("==================================");
+		
 
-\\\&nbsp;		
+		System.out.println("==================================");
 
-\\\&nbsp;		//8
+		
 
-\\\&nbsp;		
+		//8
 
-\\\&nbsp;		System.out.println("오늘 마신 커피 수를 입력하세요");
+		
 
-\\\&nbsp;		
+		System.out.println("오늘 마신 커피 수를 입력하세요");
 
-\\\&nbsp;		Scanner sc5 = new Scanner(System.in);
+		
 
-\\\&nbsp;		int coffee = sc5.nextInt();
+		Scanner sc5 = new Scanner(System.in);
 
-\\\&nbsp;		
+		int coffee = sc5.nextInt();
 
-\\\&nbsp;		if (coffee == 0) {
+		
 
-\\\&nbsp;			
+		if (coffee == 0) {
 
-\\\&nbsp;			System.out.println("여긴 어디?");
+			
 
-\\\&nbsp;			
+			System.out.println("여긴 어디?");
 
-\\\&nbsp;		} else if (coffee >= 1 \\\\\\\&\\\\\\\& coffee <= 2) {
+			
 
-\\\&nbsp;			
+		} else if (coffee >= 1 \\\\\\\&\\\\\\\& coffee <= 2) {
 
-\\\&nbsp;			System.out.println("완전 맑은 정신~");
+			
 
-\\\&nbsp;			
+			System.out.println("완전 맑은 정신~");
 
-\\\&nbsp;		} else if (coffee >= 3) {
+			
 
-\\\&nbsp;			
+		} else if (coffee >= 3) {
 
-\\\&nbsp;			System.out.println("기분 좋은 상태~");
+			
 
-\\\&nbsp;		}
+			System.out.println("기분 좋은 상태~");
 
-\\\&nbsp;		
+		}
 
-\\\&nbsp;		System.out.println("==================================");
+		
 
-\\\&nbsp;		
+		System.out.println("==================================");
 
-\\\&nbsp;		//9
+		
 
-\\\&nbsp;		Scanner sc6 = new Scanner(System.in);
+		//9
 
-\\\&nbsp;		int num = sc6.nextInt();
+		Scanner sc6 = new Scanner(System.in);
 
-\\\&nbsp;		int num1 = num%2;
+		int num = sc6.nextInt();
 
-\\\&nbsp;		
+		int num1 = num%2;
 
-\\\&nbsp;		if (num1 == 0) {
+		
 
-\\\&nbsp;			
+		if (num1 == 0) {
 
-\\\&nbsp;			System.out.println("짝수입니다");
+			
 
-\\\&nbsp;			
+			System.out.println("짝수입니다");
 
-\\\&nbsp;		} else {
+			
 
-\\\&nbsp;			
+		} else {
 
-\\\&nbsp;			System.out.println("홀수입니다");
+			
 
-\\\&nbsp;		}
+			System.out.println("홀수입니다");
 
-\\\&nbsp;   }
+		}
+
+   }
 
 }	
 
@@ -417,7 +417,7 @@ public class homework2 {
 
 
 
-## -------------------------------------------------------------------------------------------------------------------------------------------
+## -------------------------------------------------------------------------------------------------
 
 
 
@@ -520,10 +520,592 @@ for (int = 0; i < scores.length; i++) {
 
 Syso ("총합 : " + sum);
 
+---------------------------------------------------------------------------------------------
+
+package ch1;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Homework3 {
+
+	public static void main(String[] args) {
+		
+		//1
+		System.out.print("주문할 치킨 수를 입력해주세요 : ");
+		Scanner sc1 = new Scanner(System.in);
+		int ch = sc1.nextInt();
+		for (int i = 1; i <= ch; i++) {
+			
+			System.out.println("치킨 " + i + "마리 주문이요~");
+			
+		}
+		
+		System.out.println("==========");
+		
+		//2
+		System.out.print("스쿼트 몇 번 할까요? : ");
+		Scanner sc2 = new Scanner(System.in);
+		int sq = sc2.nextInt();
+		
+		for (int i = 1; i <= sq; i++) {
+			
+			System.out.println("스쿼트 " + i + "회 완료");
+			
+		}
+		
+		System.out.println("오늘 운동 끝~");
+		
+		System.out.println("==========");
+		
+		//3
+		System.out.print("수를 입력하여주세요 : ");
+		Scanner sc3 = new Scanner(System.in);
+		int num = sc3.nextInt();
+		
+		for (int i = 0; i <= num; i++) {
+			
+			if (i%2 == 0) {
+				
+				System.out.println(i);
+				
+			}
+		}
+		
+		System.out.println("==========");
+		
+		//4
+		Scanner sc4 = new Scanner(System.in);
+		
+		System.out.print("첫번째 숫자 입력 : ");
+		int num4 = sc4.nextInt();
+		
+		System.out.print("두번째 숫자 입력 : ");
+		int num5 = sc4.nextInt();
+		
+		if (num4 <= num5) {
+			
+			for (int i = num4+1; i < num5; i++) {
+			
+			System.out.println(i);
+			
+		}
+			
+			
+		} else {
+			
+			for (int i = num5+1; i < num4; i++) {
+				
+				System.out.println(i);
+				
+			}
+
+		}
+		
+		
+		System.out.println("==========");
+		
+		//5
+		for (int i = 1; i <= 9; i++) {
+			System.out.println(3*i);
+			
+		}
+		
+		System.out.println("==========");
+		
+		//6
+		System.out.print("숫자 하나를 입력해주세요 : ");
+		Scanner sc6 = new Scanner(System.in);
+		
+		int num6 = sc6.nextInt();
+		
+		for (int i = 1; i <= 9; i++) {
+			
+			System.out.println(num6 + "*" + i + "=" + num6*i);
+			
+		}
+		
+		System.out.println("==========");
+		
+		//7
+		System.out.print("숫자 하나를 입력해주세요 : ");
+		Scanner sc7 = new Scanner(System.in);
+		int num7 = sc7.nextInt();
+		
+		if (num7 % 3 == 0) {
+			
+			System.out.println("점프!");
+			
+		} else {
+			
+			System.out.println("패스~");
+
+		}
+		
+		System.out.println("==========");
+		
+		//8
+		System.out.print("숫자 하나를 입력해주세요 : ");
+		Scanner sc8 = new Scanner(System.in);
+		int num8 = sc8.nextInt();
+		
+		for (int i = 0; i < num8; i++) {           // 행 반복 ex) i = 0일 때 j = 0,1,2 / i = 1일 때 j = 0,1,2 / i = 2일 때 j = 0,1,2
+            for (int j = 0; j < num8; j++) {       // 열 반복
+            	
+                System.out.print("*");
+            }
+            
+            System.out.println();               // 한 행 끝나면 줄바꿈
+        }
+		
+		 System.out.println("==========");
+		
+		//9
+		 Scanner sc9 = new Scanner(System.in);
+		
+		 System.out.print("피자 조각 수 입력 : ");
+	     int slices = sc9.nextInt();
+
+	     System.out.print("사람 수 입력 : ");
+	     int people = sc9.nextInt();
+
+		
+		int p = slices/people;
+		int z = slices%people;
+		
+		System.out.println("한 사람이 먹을 수 있는 피자 조각 : " + p);
+		System.out.println("남은 피자 조각 : " + z);
+		
+		System.out.println("==========");
+		
+		//10
+		Scanner sc10 = new Scanner(System.in);
+		
+		System.out.print("첫번째 주사위 수 : ");
+		int di = sc10.nextInt();
+		
+		System.out.print("두번째 주사위 수 : ");
+		int ce = sc10.nextInt();
+		
+		System.out.println("두 수의 합은 : " + (di + ce));
+		
+		System.out.println("==========");
+		
+		//11
+	    Random ran = new Random(); //랜덤 변수
+				
+	    int result = ran.nextInt(50) + 1; // 0~49에서 +1해서 1~50까지의 수로 맞추기
+	    
+	    Scanner sc11 = new Scanner(System.in);
+	    
+	    int guess = 0; // 뒤에 while문에서 target 값과 비교해야하니 임의로 guess값을 0으로 선언
+	    
+	    System.out.print("1~50 사이의 숫자를 맞춰보세요");
+	    
+	    while (guess != result) { // 'for문'은 보통 횟수가 정해진 반복문 , 'while문'은 언제 끝날지 모르는 반복
+	    	                      // 'while'문은 무한반복인데 guess == result 값이 되면 빠져나옴
+	    	
+	    	System.out.print("숫자 입력 : ");
+	    	guess = sc11.nextInt(); //이미 선언했으니 'int' 할 필요가 없음
+			
+	    	if (guess < result) {
+	    		
+	    		System.out.println("UP!");
+				
+			} else if (guess > result) {
+				
+				System.out.println("DOWN!");
+
+			} else {
+				
+				System.out.println("정답입니다!");
+			}
+		}
+	    
+	    sc1.close();
+	    sc2.close();
+	    sc3.close();
+	    sc4.close();
+	    sc6.close();
+	    sc7.close();
+	    sc8.close();
+	    sc9.close();
+	    sc10.close();
+	    sc11.close();
+	}
+}
+
+----------------------------------------------------------------------------------------------------------------------------------
+<20250915 과제>
+
+package ch2;
+
+import java.util.Scanner;
+
+public class Deposit {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		boolean run = true;
+		int num = 0;
+		int money = 0; // 입출금액
+		int balance = 0; // 잔고
+		
+		while (run) { // 원하는 바를 이룰 때까지 프로그램 진행
+			
+			System.out.println("==================================");
+			System.out.println("1: 예금 | 2: 출금 | 3: 잔고 | 4: 종료 ");
+			System.out.println("==================================");
+			System.out.print("번호를 입력하세요 : ");
+			num = sc.nextInt();
+			
+			switch (num) {
+			case 1: {
+				System.out.print("입금액을 입력해주세요 : ");
+				money = sc.nextInt();
+				balance += money;
+				System.out.println(money + " 입금되었습니다");
+				break;
+			}
+			
+			case 2: {
+				System.out.print("출금액을 입력해주세요 : ");
+				money = sc.nextInt();
+				if (balance < money) {
+					System.out.println("출금할 수 없습니다");
+				} else {
+					
+					balance -= money;
+					System.out.println(money + " 출금되었습니다");
+				}
+				
+				
+				break;
+			}
+			
+			case 3: {
+				
+				System.out.println("잔고 : " + balance);
+				break;
+				
+			}
+			
+			case 4: {
+				
+				run = false;
+				break;
+			}
+
+			default:
+				System.out.println("잘못된 입력입니다");
+				break;
+			}
+		}
+		
+		System.out.println("프로그램 종료");
+	}
+}
+
+---------------------------------------------------------------------------------------------------------------
+
+package ch1;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Homework4 {
+	
+	//1
+	public static int totalCh(int a) {
+		
+		return a*8;
+		
+	}
+	
+	//2
+	public static int totalCaffeine(int b) {
+		
+		return b*80;
+		
+	}
+	
+	//3
+	public static int samKim(int c) {
+		
+		return c*200;
+		
+	}
+	
+	//4
+	public static int getLove(String name1, String name2) {
+		
+		Random ran = new Random();
+	    int d = ran.nextInt(101); // 0 ~ 100 전까지의 값 중 랜덤 수
+	    System.out.println(name1 + "과 " + name2 + "의 연애 성공 확률은 " + d + "% 입니다!");
+		return d;
+	}
+	
+	//5
+	public static String randomFood() {
+		
+		String[] food = {"라면", "김밥", "파스타", "샐러드"};
+		Random ran = new Random();
+		int index = ran.nextInt(food.length); // 0 ~ foods.length-1
+        return food[index];
+	}
+	
+	//6
+	public static String getGrade(int e) {
+		
+		if (e >= 90 && e <= 100) {
+			
+			return "A";
+			
+		} else if (e >= 80) {
+			
+			return "B";
+
+		} else if (e >= 70) {
+			
+			return "C";
+			
+		} else if (e >= 60) {
+			
+			return "D";
+			
+		} else if (e >= 0) {
+			
+			return "F";
+			
+		} else {
+			
+			return "잘못된 점수";
+		}
+		
+	}
+	
+	//7
+	public static int totalMoney(int money, int hours) {
+		
+		return money*hours;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		//1
+		System.out.print("주문할 치킨 마릿수를 입력해주세요 : ");
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		System.out.println("총 조각 수는 " + totalCh(a) + "개 입니다");
+		
+		System.out.println("====================================");
+		
+		//2 
+		System.out.print("오늘 하루 마신 커피의 수를 입력해주세요 : ");
+		int b = sc.nextInt();
+		System.out.println("총 카페인 함량은 " + totalCaffeine(b) + "mg 입니다");
+		
+		System.out.println("====================================");
+		
+		//3
+		System.out.print("오늘 하루 먹은 삼각김밥의 수를 입력해주세요 : ");
+		int c = sc.nextInt();
+		System.out.println("삼각김밥의 총 칼로리는 " + samKim(c) + "kcal 입니다");
+		
+		System.out.println("====================================");
+		
+		//4
+	    getLove("은정", "봉현");
+	    
+	    System.out.println("====================================");
+	    
+	    //5
+	    System.out.println("오늘의 추천 음식은 " + randomFood());
+	    
+	    
+	    System.out.println("====================================");
+	    
+	    //6
+	    System.out.print("0~100까지의 숫자 중 하나를 입력하세요 : ");
+	    int e = sc.nextInt();
+	    System.out.println(getGrade(e));
+	    
+	    System.out.println("====================================");
+	    
+	    //7
+	    System.out.print("시급 : ");
+	    int money = sc.nextInt();
+	    System.out.print("일한 시간 : ");
+	    int hours = sc.nextInt();
+	    System.out.println("총 급여 : " + totalMoney(money,hours));
+	}
+
+}
+
+---------------------------------------------------------------------------------------------------------------
+//1
+public class Idolhw {
+	
+	String name;
+	String position;
+	String groupname;
+	
+	
+	public Idolhw(String name, String position, String groupname) {
+		super();
+		this.name = name;
+		this.position = position;
+		this.groupname = groupname;
+	}
 
 
+	@Override
+	public String toString() {
+		return "Idolhw [이름 = " + name + ", 포지션 = " + position + ", 그룹 이름 = " + groupname + "]";
+	}
+	
+}
 
+public class IdolhwMain {
 
+	public static void main(String[] args) {
+		Idolhw idol1 = new Idolhw("루미", "리더", "헌트릭스");
+		Idolhw idol2 = new Idolhw("미라", "보컬", "헌트릭스");
+		Idolhw idol3 = new Idolhw("조이", "래퍼", "헌트릭스");
+		
+		System.out.println(idol1);
+		System.out.println(idol2);
+		System.out.println(idol3);
+
+	}
+
+}
+
+//2
+public class Pizza {
+	
+	String name;
+	String size;
+	
+	public Pizza(String name, String size) {
+		//super();
+		this.name = name;
+		this.size = size;
+	}
+
+	@Override
+	public String toString() {
+		return "Pizza [종류 = " + name + ", 사이즈 = " + size + "]";
+	}
+	
+}
+
+public class DeliveryOrderMainEx {
+
+	public static void main(String[] args) {
+		
+		DeliveryOrder first = new DeliveryOrder("떡볶이", "기숙사");
+		
+	    first.deliver(first.food, first.address);
+	}
+
+}
+
+//3
+public class Song {
+	
+	String title;
+	String artist;
+	
+	public Song(String title, String artist) {
+		//super();
+		this.title = title;
+		this.artist = artist;
+	}
+
+	public String play() {
+		return "노래를 출력합니다!";
+	}
+	
+}
+
+public class SongMainEx {
+
+	public static void main(String[] args) {
+		
+		Song song1 = new Song("Good Bye", "Ai Tomioka");
+		
+		System.out.println("노래명 : " + song1.title + " / 아티스트 : " + song1.artist);
+
+	}
+
+}
+
+//4
+public class InstagramPost {
+	
+	String written;
+	String contents;
+	
+	
+	public InstagramPost(String written, String contents) {
+		//super();
+		this.written = written;
+		this.contents = contents;
+	}
+	
+	@Override
+	public String toString() {
+		return "InstagramPost [작성자 = " + written + ", 내용 = " + contents + "]";
+	}
+	
+}
+
+public class InstagramPostMainEx {
+
+	public static void main(String[] args) {
+		
+		InstagramPost dm1 = new InstagramPost("민지", "오늘 날씨 짱~!");
+		
+		System.out.println(dm1);
+		
+	}
+
+}
+
+//5
+public class DeliveryOrder {
+	
+	String food;
+	String address;
+	
+	public DeliveryOrder(String food, String address) {
+		//super();
+		this.food = food;
+		this.address = address;
+	}
+	
+	public void deliver(String food, String address) {
+		
+		System.out.println(food + "를 " + address + "에 배송완료했습니다");
+		
+	}
+	
+}
+
+public class DeliveryOrderMainEx {
+
+	public static void main(String[] args) {
+		
+		DeliveryOrder first = new DeliveryOrder("떡볶이", "기숙사");
+		
+	    first.deliver(first.food, first.address);
+	}
+
+}
 
 
 
